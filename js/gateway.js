@@ -21,7 +21,7 @@ async function gateway(){
             data__firstname.textContent = "Имя: " + answer["firstname"];
             data__patronymic.textContent = "Отчество: " + answer["patronymic"];
             data__gender.textContent = "Пол: " + answer["gender"];
-            data__bdate.textContent = "Дата рождеия: " + answer["bdate"];
+            data__bdate.textContent = "Дата рожднеия: " + answer["bdate"];
             data__location.textContent = "Место проживания: " + answer["location"];
             data__phnumber.textContent = "Номер телефона: " + answer["phnumber"];
             k++;
